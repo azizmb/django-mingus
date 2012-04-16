@@ -63,6 +63,8 @@ INSTALLED_APPS = (
   'django.contrib.sitemaps',
   'django.contrib.flatpages',
   'django.contrib.redirects',
+  
+  'mingus_bootstrap_theme',
 
   'django_extensions',
   'tagging',
