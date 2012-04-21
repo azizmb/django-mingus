@@ -12,6 +12,9 @@ from mingus.core.views import springsteen_results, springsteen_firehose, \
 from robots.views import rules_list
 from mingus.core.feeds import AllEntries, ByTag
 
+import oembed
+oembed.autodiscover()
+
 admin.autodiscover()
 
 feeds = {
